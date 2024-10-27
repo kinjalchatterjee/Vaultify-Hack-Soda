@@ -40,7 +40,7 @@
   ```bash
   npm install
 
-Install Fabric-Samples in the backend
+- Install Fabric-Samples in the backend
 
 - **git clone**
 

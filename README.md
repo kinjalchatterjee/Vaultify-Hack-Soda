@@ -40,7 +40,7 @@
   ```bash
   npm install
 
-- Install Fabric-Samples in the backend
+- Install Fabric-Samples in the root project directory for Vaultify-Blockchain-Backend-main
 
 - **git clone**
 

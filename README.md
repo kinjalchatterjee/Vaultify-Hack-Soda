@@ -48,6 +48,13 @@
   git clone https://github.com/hyperledger/fabric-samples.git
 
 - Run docker files containing the chaincode (smart contracts) while in the fabric-samples/testnetwork.js directory
+  ```bash
+  curl -sSL https://bit.ly/2ysbOFE | bash -s
+  cd test-network
+  ./network.sh up createChannel -c mychannel
+  ./network.sh deployCC -ccn accesscontrol -ccv 1 -cci initLedger -ccl javascript -ccp ../../chaincode/access-control
+  cp ../fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json backend/fabric/
+
 - Configure .env files
 
 ## Executing program
